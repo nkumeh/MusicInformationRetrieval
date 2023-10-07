@@ -3,3 +3,8 @@ node_modules
 *.log
 __pycache__/
 *.tmp
+__pycache__/
+*.pyc
+*.pyo
+*.class
+target/
