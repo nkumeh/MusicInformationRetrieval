@@ -1,10 +1,11 @@
-Music Backend Services Project
+# Music Backend Services Project
 
-Overview
+### Overview
 This project aims to build a suite of backend services tailored for the music industry, focusing on a music catalog system, playlist scheduler, live music chat, and scalable microservices architecture. This project is designed as a month-long journey to demonstrate and refine backend engineering skills, with a special focus on technologies relevant to the music industry.
 
-Features
-Music Catalog RESTful API: Manage songs, artists, and albums with user authentication and authorization.
+### Features
+##### Music Catalog RESTful API: 
+Manage songs, artists, and albums with user authentication and authorization.
 Playlist Scheduler & Live Chat: Automated playlist scheduling and real-time chat for music events.
 Microservices for Music Streaming: Separate services for user management, music streaming, and chat.
 Scalable & Distributed Systems: Utilize Apache Kafka and Docker for handling high volumes of data and user activity.
