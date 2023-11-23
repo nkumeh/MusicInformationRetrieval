@@ -2,7 +2,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const connectDB = require('./database');
-const Artist = require('./artist'); // Import your model
+const Artist = require('./Artist'); // Import your artist model
+const Album = require('./Album'); // Import your album model
+const Track = require('./Track'); // Import your track model
+
 
 const app = express();
 app.use(bodyParser.json());
