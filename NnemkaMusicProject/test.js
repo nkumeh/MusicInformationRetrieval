@@ -1,5 +1,8 @@
 // test.js
 // Test file to test our functions
+require('dotenv').config();
+
+
 const mongoose = require('mongoose');
 const supertest = require('supertest');
 const app = require('./index'); // Import your Express app
@@ -7,7 +10,7 @@ const app = require('./index'); // Import your Express app
 
 describe('Testing CRUD operations', () => {
   beforeAll(async () => {
-    const url = 'mongodb+srv://nnem_ka:CGuorzDHrBqgbQOF@ground0.bzifarf.mongodb.net/?retryWrites=true&w=majority';
+    const url = 'MONGODB_URI';
     await mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
   });
 
